@@ -1,0 +1,32 @@
+# Raw large dataset CSV files (>100MB each, exceeding GitHub file limits)
+*.csv
+data/*.csv
+
+# Columnar Data Warehouse generated database (>100MB, exceeding GitHub file limits)
+warehouse/*.duckdb
+warehouse/*.duckdb.tmp
+warehouse/*.duckdb.wal
+
+# Python environment & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo

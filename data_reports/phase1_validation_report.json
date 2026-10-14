@@ -1,0 +1,114 @@
+{
+  "execution_timestamp": "2026-10-14T10:00:44.792021",
+  "duration_seconds": 185.24,
+  "total_records": 7079081,
+  "files_analyzed": [
+    {
+      "filename": "v:\\Flight_Delay_Data\\april.csv",
+      "row_count": 582205
+    },
+    {
+      "filename": "v:\\Flight_Delay_Data\\august.csv",
+      "row_count": 619025
+    },
+    {
+      "filename": "v:\\Flight_Delay_Data\\dec.csv",
+      "row_count": 590581
+    },
+    {
+      "filename": "v:\\Flight_Delay_Data\\feb.csv",
+      "row_count": 519221
+    },
+    {
+      "filename": "v:\\Flight_Delay_Data\\jan.csv",
+      "row_count": 547271
+    },
+    {
+      "filename": "v:\\Flight_Delay_Data\\july.csv",
+      "row_count": 634613
+    },
+    {
+      "filename": "v:\\Flight_Delay_Data\\june.csv",
+      "row_count": 611132
+    },
+    {
+      "filename": "v:\\Flight_Delay_Data\\march.csv",
+      "row_count": 591767
+    },
+    {
+      "filename": "v:\\Flight_Delay_Data\\may.csv",
+      "row_count": 609743
+    },
+    {
+      "filename": "v:\\Flight_Delay_Data\\nov.csv",
+      "row_count": 575404
+    },
+    {
+      "filename": "v:\\Flight_Delay_Data\\oct.csv",
+      "row_count": 615497
+    },
+    {
+      "filename": "v:\\Flight_Delay_Data\\sept.csv",
+      "row_count": 582622
+    }
+  ],
+  "status_summary": {
+    "total": 7079081,
+    "cancelled_count": 96315.0,
+    "cancel_pct": 1.361,
+    "diverted_count": 17499.0,
+    "divert_pct": 0.247,
+    "completed_count": 6965267.0,
+    "completed_pct": 98.392
+  },
+  "delay_summary": {
+    "completed_total": 6965267,
+    "delayed_15_count": 1449972.0,
+    "delayed_15_pct": 20.82,
+    "avg_arr_delay_min": 7.1,
+    "median_arr_delay_min": -6.0,
+    "min_arr_delay": -126.0,
+    "max_arr_delay": 3803.0,
+    "avg_dep_delay_min": 12.59
+  },
+  "null_audit": {
+    "null_fl_date": 0,
+    "null_carrier": 0,
+    "null_origin": 0,
+    "null_dest": 0,
+    "null_crs_dep_time": 0,
+    "null_crs_arr_time": 0,
+    "null_distance": 0,
+    "null_dep_delay": 92970,
+    "null_arr_delay": 113814,
+    "null_tail_num": 20152
+  },
+  "cause_summary": {
+    "delayed_flights": 1449970,
+    "avg_carrier_delay": 24.71,
+    "avg_weather_delay": 4.27,
+    "avg_nas_delay": 13.53,
+    "avg_security_delay": 0.12,
+    "avg_late_aircraft_delay": 28.95,
+    "carrier_pct": 34.51,
+    "weather_pct": 5.97,
+    "nas_pct": 18.9,
+    "sec_pct": 0.17,
+    "late_aircraft_pct": 40.44
+  },
+  "cardinalities": {
+    "unique_carriers": 15,
+    "unique_origins": 348,
+    "unique_dests": 348,
+    "unique_aircraft": 6112,
+    "unique_routes": 6805
+  },
+  "cleaning_rules": [
+    "1. Cancellation & Diversion Partitioning: Flights with CANCELLED=1 or DIVERTED=1 lack arrival delays by nature. Filtered to completed flights for arrival delay prediction; preserved with status flags in data warehouse.",
+    "2. Delay Cause Imputation: Missing delay causes (CARRIER_DELAY, WEATHER_DELAY, NAS_DELAY, SECURITY_DELAY, LATE_AIRCRAFT_DELAY) default to 0.0 for non-delayed/minor delayed flights.",
+    "3. Time Standardization: CRS_DEP_TIME and CRS_ARR_TIME formatted as 24-hr military time (HHMM), standardized into scheduled hour integers (0-23) and operational time blocks (Morning, Midday, Afternoon, Evening, Red-eye).",
+    "4. Entity Dimension Consistency: Standardize airport and carrier identifiers, clean city/state string representations.",
+    "5. Anomaly Guardrails: Ensure non-negative elapsed times and valid flight distance > 0."
+  ],
+  "validation_status": "PASSED"
+}

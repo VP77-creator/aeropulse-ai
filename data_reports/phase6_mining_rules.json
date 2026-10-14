@@ -1,0 +1,1850 @@
+{
+  "execution_timestamp": "2026-10-14T10:29:25.900651",
+  "duration_seconds": 7.69,
+  "baseline_delay_rate": 0.2082,
+  "total_rules_discovered": 49,
+  "association_rules": [
+    {
+      "antecedent": [
+        "Origin=CLT",
+        "TimePeriod=Evening",
+        "Season=Summer"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0022,
+      "confidence": 0.5167,
+      "lift": 2.482,
+      "matched_flights": 15538
+    },
+    {
+      "antecedent": [
+        "Origin=ORD",
+        "TimePeriod=Evening",
+        "Season=Summer"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0035,
+      "confidence": 0.4654,
+      "lift": 2.235,
+      "matched_flights": 24113
+    },
+    {
+      "antecedent": [
+        "Origin=DFW",
+        "TimePeriod=Evening",
+        "Season=Summer"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0036,
+      "confidence": 0.4412,
+      "lift": 2.119,
+      "matched_flights": 24945
+    },
+    {
+      "antecedent": [
+        "Origin=DFW",
+        "TimePeriod=Evening",
+        "Season=Spring"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0032,
+      "confidence": 0.4335,
+      "lift": 2.082,
+      "matched_flights": 22108
+    },
+    {
+      "antecedent": [
+        "Origin=DEN",
+        "TimePeriod=Evening",
+        "Season=Summer"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0036,
+      "confidence": 0.4179,
+      "lift": 2.008,
+      "matched_flights": 25358
+    },
+    {
+      "antecedent": [
+        "Origin=CLT",
+        "TimePeriod=Evening",
+        "Season=Spring"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0023,
+      "confidence": 0.4144,
+      "lift": 1.991,
+      "matched_flights": 15736
+    },
+    {
+      "antecedent": [
+        "Carrier=F9",
+        "TimePeriod=Evening"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0074,
+      "confidence": 0.3752,
+      "lift": 1.802,
+      "matched_flights": 51843
+    },
+    {
+      "antecedent": [
+        "Carrier=AA",
+        "TimePeriod=Evening"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0351,
+      "confidence": 0.3735,
+      "lift": 1.794,
+      "matched_flights": 244435
+    },
+    {
+      "antecedent": [
+        "Origin=ATL",
+        "TimePeriod=Evening",
+        "Season=Summer"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0034,
+      "confidence": 0.3715,
+      "lift": 1.785,
+      "matched_flights": 23490
+    },
+    {
+      "antecedent": [
+        "Origin=CLT",
+        "TimePeriod=Evening"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0088,
+      "confidence": 0.3688,
+      "lift": 1.772,
+      "matched_flights": 61406
+    },
+    {
+      "antecedent": [
+        "Origin=CLT",
+        "TimePeriod=Late Night"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0025,
+      "confidence": 0.3668,
+      "lift": 1.762,
+      "matched_flights": 17760
+    },
+    {
+      "antecedent": [
+        "Origin=MCO",
+        "TimePeriod=Evening"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0062,
+      "confidence": 0.3614,
+      "lift": 1.736,
+      "matched_flights": 43303
+    },
+    {
+      "antecedent": [
+        "Origin=DFW",
+        "TimePeriod=Evening"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0133,
+      "confidence": 0.3553,
+      "lift": 1.707,
+      "matched_flights": 92675
+    },
+    {
+      "antecedent": [
+        "Origin=CLT",
+        "TimePeriod=Afternoon",
+        "Season=Summer"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0022,
+      "confidence": 0.3552,
+      "lift": 1.706,
+      "matched_flights": 15300
+    },
+    {
+      "antecedent": [
+        "Carrier=B6",
+        "TimePeriod=Evening"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0093,
+      "confidence": 0.3436,
+      "lift": 1.651,
+      "matched_flights": 64935
+    },
+    {
+      "antecedent": [
+        "Origin=DFW",
+        "TimePeriod=Afternoon",
+        "Season=Summer"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0036,
+      "confidence": 0.3427,
+      "lift": 1.646,
+      "matched_flights": 25152
+    },
+    {
+      "antecedent": [
+        "Origin=EWR",
+        "TimePeriod=Evening"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0054,
+      "confidence": 0.3404,
+      "lift": 1.635,
+      "matched_flights": 37430
+    },
+    {
+      "antecedent": [
+        "Origin=ORD",
+        "TimePeriod=Evening",
+        "Season=Spring"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0033,
+      "confidence": 0.3346,
+      "lift": 1.607,
+      "matched_flights": 22782
+    },
+    {
+      "antecedent": [
+        "Origin=DFW",
+        "TimePeriod=Afternoon",
+        "Season=Spring"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0032,
+      "confidence": 0.3317,
+      "lift": 1.593,
+      "matched_flights": 22264
+    },
+    {
+      "antecedent": [
+        "Origin=ORD",
+        "TimePeriod=Evening"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0128,
+      "confidence": 0.3264,
+      "lift": 1.568,
+      "matched_flights": 88926
+    },
+    {
+      "antecedent": [
+        "Carrier=NK",
+        "TimePeriod=Evening"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0104,
+      "confidence": 0.325,
+      "lift": 1.561,
+      "matched_flights": 72157
+    },
+    {
+      "antecedent": [
+        "Carrier=WN",
+        "TimePeriod=Evening"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0535,
+      "confidence": 0.3194,
+      "lift": 1.534,
+      "matched_flights": 372849
+    },
+    {
+      "antecedent": [
+        "Origin=LAS",
+        "TimePeriod=Evening"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.006,
+      "confidence": 0.319,
+      "lift": 1.532,
+      "matched_flights": 41939
+    },
+    {
+      "antecedent": [
+        "Carrier=F9",
+        "TimePeriod=Afternoon"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0082,
+      "confidence": 0.3144,
+      "lift": 1.51,
+      "matched_flights": 57174
+    },
+    {
+      "antecedent": [
+        "Origin=BOS",
+        "TimePeriod=Evening"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0052,
+      "confidence": 0.3071,
+      "lift": 1.475,
+      "matched_flights": 36075
+    },
+    {
+      "antecedent": [
+        "Carrier=OH",
+        "TimePeriod=Evening"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0078,
+      "confidence": 0.304,
+      "lift": 1.46,
+      "matched_flights": 54149
+    },
+    {
+      "antecedent": [
+        "Carrier=AA",
+        "TimePeriod=Afternoon"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0382,
+      "confidence": 0.2984,
+      "lift": 1.433,
+      "matched_flights": 265784
+    },
+    {
+      "antecedent": [
+        "Carrier=B6",
+        "TimePeriod=Afternoon"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0091,
+      "confidence": 0.2968,
+      "lift": 1.426,
+      "matched_flights": 63507
+    },
+    {
+      "antecedent": [
+        "Origin=DEN",
+        "TimePeriod=Evening"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0135,
+      "confidence": 0.2951,
+      "lift": 1.417,
+      "matched_flights": 94000
+    },
+    {
+      "antecedent": [
+        "Carrier=MQ",
+        "TimePeriod=Evening"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.01,
+      "confidence": 0.2922,
+      "lift": 1.404,
+      "matched_flights": 69757
+    },
+    {
+      "antecedent": [
+        "TimePeriod=Evening"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.2561,
+      "confidence": 0.2919,
+      "lift": 1.402,
+      "matched_flights": 1783884
+    },
+    {
+      "antecedent": [
+        "Carrier=F9"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0292,
+      "confidence": 0.2874,
+      "lift": 1.381,
+      "matched_flights": 203482
+    },
+    {
+      "antecedent": [
+        "Origin=MIA"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0155,
+      "confidence": 0.2783,
+      "lift": 1.337,
+      "matched_flights": 107722
+    },
+    {
+      "antecedent": [
+        "Origin=DFW"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0441,
+      "confidence": 0.271,
+      "lift": 1.302,
+      "matched_flights": 306872
+    },
+    {
+      "antecedent": [
+        "Origin=CLT"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0307,
+      "confidence": 0.2704,
+      "lift": 1.299,
+      "matched_flights": 214096
+    },
+    {
+      "antecedent": [
+        "Carrier=AA"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.1387,
+      "confidence": 0.2613,
+      "lift": 1.255,
+      "matched_flights": 966116
+    },
+    {
+      "antecedent": [
+        "Season=Summer"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.2612,
+      "confidence": 0.2603,
+      "lift": 1.25,
+      "matched_flights": 1819513
+    },
+    {
+      "antecedent": [
+        "TimePeriod=Late Night"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0316,
+      "confidence": 0.2563,
+      "lift": 1.231,
+      "matched_flights": 220239
+    },
+    {
+      "antecedent": [
+        "Carrier=B6"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0338,
+      "confidence": 0.2551,
+      "lift": 1.225,
+      "matched_flights": 235683
+    },
+    {
+      "antecedent": [
+        "Origin=MCO"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0224,
+      "confidence": 0.2441,
+      "lift": 1.173,
+      "matched_flights": 156258
+    },
+    {
+      "antecedent": [
+        "Origin=IAH"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0163,
+      "confidence": 0.244,
+      "lift": 1.172,
+      "matched_flights": 113248
+    },
+    {
+      "antecedent": [
+        "Carrier=NK"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0367,
+      "confidence": 0.2393,
+      "lift": 1.149,
+      "matched_flights": 255633
+    },
+    {
+      "antecedent": [
+        "Origin=ORD"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0396,
+      "confidence": 0.2369,
+      "lift": 1.138,
+      "matched_flights": 275505
+    },
+    {
+      "antecedent": [
+        "TimePeriod=Afternoon"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.292,
+      "confidence": 0.231,
+      "lift": 1.11,
+      "matched_flights": 2033975
+    },
+    {
+      "antecedent": [
+        "Origin=DEN"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0437,
+      "confidence": 0.2277,
+      "lift": 1.094,
+      "matched_flights": 304323
+    },
+    {
+      "antecedent": [
+        "Origin=EWR"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.018,
+      "confidence": 0.2233,
+      "lift": 1.073,
+      "matched_flights": 125428
+    },
+    {
+      "antecedent": [
+        "Season=Spring"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.2529,
+      "confidence": 0.2215,
+      "lift": 1.064,
+      "matched_flights": 1761574
+    },
+    {
+      "antecedent": [
+        "Origin=SFO"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0191,
+      "confidence": 0.2209,
+      "lift": 1.061,
+      "matched_flights": 132846
+    },
+    {
+      "antecedent": [
+        "Carrier=AS"
+      ],
+      "consequent": [
+        "Delayed >= 15m"
+      ],
+      "support": 0.0345,
+      "confidence": 0.2207,
+      "lift": 1.06,
+      "matched_flights": 240323
+    }
+  ],
+  "clustering_analysis": {
+    "cluster_profiles": [
+      {
+        "cluster_id": 0,
+        "cluster_name": "High-Efficiency Smooth Operations Hubs",
+        "description": "Large and mid-size airports with superior on-time departure records, quick surface movements, and low delay propagation.",
+        "airport_count": 15,
+        "sample_airports": [
+          "HNL",
+          "PDX",
+          "SMF",
+          "SJC",
+          "OAK",
+          "OGG",
+          "ONT",
+          "ABQ"
+        ],
+        "centroid_metrics": {
+          "arr_delay_rate": 15.15,
+          "dep_delay_rate": 15.27,
+          "avg_dep_delay": 6.96,
+          "avg_taxi_out": 13.87,
+          "avg_nas_delay": 1.45,
+          "avg_weather_delay": 0.36
+        }
+      },
+      {
+        "cluster_id": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields",
+        "description": "Stable airports with moderate delay variance and balanced ground/air traffic operations.",
+        "airport_count": 28,
+        "sample_airports": [
+          "DTW",
+          "MSP",
+          "SLC",
+          "IAD",
+          "OMA",
+          "OKC",
+          "MEM",
+          "TUS"
+        ],
+        "centroid_metrics": {
+          "arr_delay_rate": 18.34,
+          "dep_delay_rate": 17.19,
+          "avg_dep_delay": 10.92,
+          "avg_taxi_out": 16.12,
+          "avg_nas_delay": 2.66,
+          "avg_weather_delay": 1.2
+        }
+      },
+      {
+        "cluster_id": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields",
+        "description": "Stable airports with moderate delay variance and balanced ground/air traffic operations.",
+        "airport_count": 41,
+        "sample_airports": [
+          "ATL",
+          "LAX",
+          "PHX",
+          "LAS",
+          "SEA",
+          "LGA",
+          "BOS",
+          "DCA"
+        ],
+        "centroid_metrics": {
+          "arr_delay_rate": 19.29,
+          "dep_delay_rate": 19.23,
+          "avg_dep_delay": 11.42,
+          "avg_taxi_out": 15.76,
+          "avg_nas_delay": 2.93,
+          "avg_weather_delay": 0.59
+        }
+      },
+      {
+        "cluster_id": 3,
+        "cluster_name": "High-Friction Surface Congestion Hubs",
+        "description": "Airports characterized by long taxi-out queues and severe National Airspace System (NAS) ground delays.",
+        "airport_count": 17,
+        "sample_airports": [
+          "DFW",
+          "DEN",
+          "ORD",
+          "CLT",
+          "MCO",
+          "SFO",
+          "EWR",
+          "JFK"
+        ],
+        "centroid_metrics": {
+          "arr_delay_rate": 24.27,
+          "dep_delay_rate": 24.1,
+          "avg_dep_delay": 15.92,
+          "avg_taxi_out": 19.8,
+          "avg_nas_delay": 3.5,
+          "avg_weather_delay": 0.96
+        }
+      }
+    ],
+    "airport_assignments": [
+      {
+        "airport": "ATL",
+        "city": "Atlanta, GA",
+        "state": "GA",
+        "total_departures": 337662,
+        "arr_delay_rate": 19.85,
+        "avg_taxi_out": 16.47,
+        "avg_dep_delay": 10.97,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "DFW",
+        "city": "Dallas/Fort Worth, TX",
+        "state": "TX",
+        "total_departures": 306872,
+        "arr_delay_rate": 27.1,
+        "avg_taxi_out": 19.88,
+        "avg_dep_delay": 18.84,
+        "cluster": 3,
+        "cluster_name": "High-Friction Surface Congestion Hubs"
+      },
+      {
+        "airport": "DEN",
+        "city": "Denver, CO",
+        "state": "CO",
+        "total_departures": 304323,
+        "arr_delay_rate": 22.77,
+        "avg_taxi_out": 18.39,
+        "avg_dep_delay": 13.18,
+        "cluster": 3,
+        "cluster_name": "High-Friction Surface Congestion Hubs"
+      },
+      {
+        "airport": "ORD",
+        "city": "Chicago, IL",
+        "state": "IL",
+        "total_departures": 275505,
+        "arr_delay_rate": 23.69,
+        "avg_taxi_out": 23.78,
+        "avg_dep_delay": 15.14,
+        "cluster": 3,
+        "cluster_name": "High-Friction Surface Congestion Hubs"
+      },
+      {
+        "airport": "CLT",
+        "city": "Charlotte, NC",
+        "state": "NC",
+        "total_departures": 214096,
+        "arr_delay_rate": 27.04,
+        "avg_taxi_out": 21.68,
+        "avg_dep_delay": 18.34,
+        "cluster": 3,
+        "cluster_name": "High-Friction Surface Congestion Hubs"
+      },
+      {
+        "airport": "LAX",
+        "city": "Los Angeles, CA",
+        "state": "CA",
+        "total_departures": 191903,
+        "arr_delay_rate": 18.77,
+        "avg_taxi_out": 18.66,
+        "avg_dep_delay": 10.2,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "PHX",
+        "city": "Phoenix, AZ",
+        "state": "AZ",
+        "total_departures": 191868,
+        "arr_delay_rate": 19.14,
+        "avg_taxi_out": 15.81,
+        "avg_dep_delay": 10.89,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "LAS",
+        "city": "Las Vegas, NV",
+        "state": "NV",
+        "total_departures": 186853,
+        "arr_delay_rate": 21.83,
+        "avg_taxi_out": 17.96,
+        "avg_dep_delay": 12.81,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "SEA",
+        "city": "Seattle, WA",
+        "state": "WA",
+        "total_departures": 161520,
+        "arr_delay_rate": 21.5,
+        "avg_taxi_out": 21.24,
+        "avg_dep_delay": 9.48,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "LGA",
+        "city": "New York, NY",
+        "state": "NY",
+        "total_departures": 158152,
+        "arr_delay_rate": 18.1,
+        "avg_taxi_out": 23.44,
+        "avg_dep_delay": 10.58,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "MCO",
+        "city": "Orlando, FL",
+        "state": "FL",
+        "total_departures": 156258,
+        "arr_delay_rate": 24.41,
+        "avg_taxi_out": 18.39,
+        "avg_dep_delay": 15.85,
+        "cluster": 3,
+        "cluster_name": "High-Friction Surface Congestion Hubs"
+      },
+      {
+        "airport": "BOS",
+        "city": "Boston, MA",
+        "state": "MA",
+        "total_departures": 141052,
+        "arr_delay_rate": 20.38,
+        "avg_taxi_out": 20.59,
+        "avg_dep_delay": 11.94,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "DCA",
+        "city": "Washington, DC",
+        "state": "VA",
+        "total_departures": 137467,
+        "arr_delay_rate": 20.05,
+        "avg_taxi_out": 20.92,
+        "avg_dep_delay": 12.05,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "SFO",
+        "city": "San Francisco, CA",
+        "state": "CA",
+        "total_departures": 132846,
+        "arr_delay_rate": 22.09,
+        "avg_taxi_out": 20.1,
+        "avg_dep_delay": 14.46,
+        "cluster": 3,
+        "cluster_name": "High-Friction Surface Congestion Hubs"
+      },
+      {
+        "airport": "DTW",
+        "city": "Detroit, MI",
+        "state": "MI",
+        "total_departures": 129723,
+        "arr_delay_rate": 19.22,
+        "avg_taxi_out": 17.67,
+        "avg_dep_delay": 11.16,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "EWR",
+        "city": "Newark, NJ",
+        "state": "NJ",
+        "total_departures": 125428,
+        "arr_delay_rate": 22.33,
+        "avg_taxi_out": 24.29,
+        "avg_dep_delay": 13.94,
+        "cluster": 3,
+        "cluster_name": "High-Friction Surface Congestion Hubs"
+      },
+      {
+        "airport": "MSP",
+        "city": "Minneapolis, MN",
+        "state": "MN",
+        "total_departures": 125365,
+        "arr_delay_rate": 18.93,
+        "avg_taxi_out": 18.64,
+        "avg_dep_delay": 10.0,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "JFK",
+        "city": "New York, NY",
+        "state": "NY",
+        "total_departures": 120770,
+        "arr_delay_rate": 21.06,
+        "avg_taxi_out": 26.31,
+        "avg_dep_delay": 12.73,
+        "cluster": 3,
+        "cluster_name": "High-Friction Surface Congestion Hubs"
+      },
+      {
+        "airport": "IAH",
+        "city": "Houston, TX",
+        "state": "TX",
+        "total_departures": 113248,
+        "arr_delay_rate": 24.4,
+        "avg_taxi_out": 19.7,
+        "avg_dep_delay": 17.67,
+        "cluster": 3,
+        "cluster_name": "High-Friction Surface Congestion Hubs"
+      },
+      {
+        "airport": "SLC",
+        "city": "Salt Lake City, UT",
+        "state": "UT",
+        "total_departures": 112250,
+        "arr_delay_rate": 17.32,
+        "avg_taxi_out": 18.2,
+        "avg_dep_delay": 9.09,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "MIA",
+        "city": "Miami, FL",
+        "state": "FL",
+        "total_departures": 107722,
+        "arr_delay_rate": 27.83,
+        "avg_taxi_out": 20.83,
+        "avg_dep_delay": 19.47,
+        "cluster": 3,
+        "cluster_name": "High-Friction Surface Congestion Hubs"
+      },
+      {
+        "airport": "BNA",
+        "city": "Nashville, TN",
+        "state": "TN",
+        "total_departures": 98716,
+        "arr_delay_rate": 19.28,
+        "avg_taxi_out": 15.54,
+        "avg_dep_delay": 11.68,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "PHL",
+        "city": "Philadelphia, PA",
+        "state": "PA",
+        "total_departures": 98710,
+        "arr_delay_rate": 22.38,
+        "avg_taxi_out": 21.12,
+        "avg_dep_delay": 14.93,
+        "cluster": 3,
+        "cluster_name": "High-Friction Surface Congestion Hubs"
+      },
+      {
+        "airport": "BWI",
+        "city": "Baltimore, MD",
+        "state": "MD",
+        "total_departures": 97251,
+        "arr_delay_rate": 24.57,
+        "avg_taxi_out": 15.12,
+        "avg_dep_delay": 15.29,
+        "cluster": 3,
+        "cluster_name": "High-Friction Surface Congestion Hubs"
+      },
+      {
+        "airport": "SAN",
+        "city": "San Diego, CA",
+        "state": "CA",
+        "total_departures": 93175,
+        "arr_delay_rate": 23.59,
+        "avg_taxi_out": 21.47,
+        "avg_dep_delay": 12.75,
+        "cluster": 3,
+        "cluster_name": "High-Friction Surface Congestion Hubs"
+      },
+      {
+        "airport": "FLL",
+        "city": "Fort Lauderdale, FL",
+        "state": "FL",
+        "total_departures": 90121,
+        "arr_delay_rate": 26.73,
+        "avg_taxi_out": 17.57,
+        "avg_dep_delay": 17.15,
+        "cluster": 3,
+        "cluster_name": "High-Friction Surface Congestion Hubs"
+      },
+      {
+        "airport": "AUS",
+        "city": "Austin, TX",
+        "state": "TX",
+        "total_departures": 84296,
+        "arr_delay_rate": 21.7,
+        "avg_taxi_out": 15.05,
+        "avg_dep_delay": 14.65,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "MDW",
+        "city": "Chicago, IL",
+        "state": "IL",
+        "total_departures": 78480,
+        "arr_delay_rate": 22.25,
+        "avg_taxi_out": 13.85,
+        "avg_dep_delay": 12.88,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "TPA",
+        "city": "Tampa, FL",
+        "state": "FL",
+        "total_departures": 76339,
+        "arr_delay_rate": 22.12,
+        "avg_taxi_out": 15.34,
+        "avg_dep_delay": 14.27,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "DAL",
+        "city": "Dallas, TX",
+        "state": "TX",
+        "total_departures": 71740,
+        "arr_delay_rate": 22.99,
+        "avg_taxi_out": 13.04,
+        "avg_dep_delay": 13.93,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "STL",
+        "city": "St. Louis, MO",
+        "state": "MO",
+        "total_departures": 64767,
+        "arr_delay_rate": 19.94,
+        "avg_taxi_out": 12.3,
+        "avg_dep_delay": 11.75,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "HNL",
+        "city": "Honolulu, HI",
+        "state": "HI",
+        "total_departures": 60885,
+        "arr_delay_rate": 13.71,
+        "avg_taxi_out": 16.21,
+        "avg_dep_delay": 5.79,
+        "cluster": 0,
+        "cluster_name": "High-Efficiency Smooth Operations Hubs"
+      },
+      {
+        "airport": "RDU",
+        "city": "Raleigh/Durham, NC",
+        "state": "NC",
+        "total_departures": 60267,
+        "arr_delay_rate": 20.58,
+        "avg_taxi_out": 17.64,
+        "avg_dep_delay": 12.97,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "PDX",
+        "city": "Portland, OR",
+        "state": "OR",
+        "total_departures": 58710,
+        "arr_delay_rate": 17.01,
+        "avg_taxi_out": 14.62,
+        "avg_dep_delay": 8.15,
+        "cluster": 0,
+        "cluster_name": "High-Efficiency Smooth Operations Hubs"
+      },
+      {
+        "airport": "HOU",
+        "city": "Houston, TX",
+        "state": "TX",
+        "total_departures": 56264,
+        "arr_delay_rate": 20.36,
+        "avg_taxi_out": 12.56,
+        "avg_dep_delay": 13.22,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "SMF",
+        "city": "Sacramento, CA",
+        "state": "CA",
+        "total_departures": 54544,
+        "arr_delay_rate": 16.61,
+        "avg_taxi_out": 13.4,
+        "avg_dep_delay": 9.03,
+        "cluster": 0,
+        "cluster_name": "High-Efficiency Smooth Operations Hubs"
+      },
+      {
+        "airport": "IAD",
+        "city": "Washington, DC",
+        "state": "VA",
+        "total_departures": 52071,
+        "arr_delay_rate": 17.65,
+        "avg_taxi_out": 20.26,
+        "avg_dep_delay": 10.05,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "SJC",
+        "city": "San Jose, CA",
+        "state": "CA",
+        "total_departures": 49978,
+        "arr_delay_rate": 15.29,
+        "avg_taxi_out": 14.23,
+        "avg_dep_delay": 6.43,
+        "cluster": 0,
+        "cluster_name": "High-Efficiency Smooth Operations Hubs"
+      },
+      {
+        "airport": "MSY",
+        "city": "New Orleans, LA",
+        "state": "LA",
+        "total_departures": 49343,
+        "arr_delay_rate": 21.48,
+        "avg_taxi_out": 12.91,
+        "avg_dep_delay": 14.1,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "MCI",
+        "city": "Kansas City, MO",
+        "state": "MO",
+        "total_departures": 49167,
+        "arr_delay_rate": 17.4,
+        "avg_taxi_out": 13.84,
+        "avg_dep_delay": 9.52,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "IND",
+        "city": "Indianapolis, IN",
+        "state": "IN",
+        "total_departures": 47015,
+        "arr_delay_rate": 17.13,
+        "avg_taxi_out": 14.92,
+        "avg_dep_delay": 9.26,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "PIT",
+        "city": "Pittsburgh, PA",
+        "state": "PA",
+        "total_departures": 43139,
+        "arr_delay_rate": 17.42,
+        "avg_taxi_out": 15.03,
+        "avg_dep_delay": 9.13,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "SNA",
+        "city": "Santa Ana, CA",
+        "state": "CA",
+        "total_departures": 42985,
+        "arr_delay_rate": 17.38,
+        "avg_taxi_out": 15.44,
+        "avg_dep_delay": 10.46,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "CMH",
+        "city": "Columbus, OH",
+        "state": "OH",
+        "total_departures": 41706,
+        "arr_delay_rate": 16.38,
+        "avg_taxi_out": 14.3,
+        "avg_dep_delay": 8.92,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "SAT",
+        "city": "San Antonio, TX",
+        "state": "TX",
+        "total_departures": 41048,
+        "arr_delay_rate": 18.08,
+        "avg_taxi_out": 13.0,
+        "avg_dep_delay": 11.59,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "OAK",
+        "city": "Oakland, CA",
+        "state": "CA",
+        "total_departures": 41030,
+        "arr_delay_rate": 16.85,
+        "avg_taxi_out": 12.92,
+        "avg_dep_delay": 8.54,
+        "cluster": 0,
+        "cluster_name": "High-Efficiency Smooth Operations Hubs"
+      },
+      {
+        "airport": "CVG",
+        "city": "Cincinnati, OH",
+        "state": "KY",
+        "total_departures": 40595,
+        "arr_delay_rate": 18.43,
+        "avg_taxi_out": 15.18,
+        "avg_dep_delay": 10.4,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "CLE",
+        "city": "Cleveland, OH",
+        "state": "OH",
+        "total_departures": 40331,
+        "arr_delay_rate": 17.95,
+        "avg_taxi_out": 15.29,
+        "avg_dep_delay": 10.22,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "SJU",
+        "city": "San Juan, PR",
+        "state": "PR",
+        "total_departures": 34804,
+        "arr_delay_rate": 25.78,
+        "avg_taxi_out": 16.22,
+        "avg_dep_delay": 18.04,
+        "cluster": 3,
+        "cluster_name": "High-Friction Surface Congestion Hubs"
+      },
+      {
+        "airport": "RSW",
+        "city": "Fort Myers, FL",
+        "state": "FL",
+        "total_departures": 33972,
+        "arr_delay_rate": 21.23,
+        "avg_taxi_out": 14.85,
+        "avg_dep_delay": 13.4,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "BUR",
+        "city": "Burbank, CA",
+        "state": "CA",
+        "total_departures": 30203,
+        "arr_delay_rate": 18.45,
+        "avg_taxi_out": 17.22,
+        "avg_dep_delay": 9.54,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "JAX",
+        "city": "Jacksonville, FL",
+        "state": "FL",
+        "total_departures": 29678,
+        "arr_delay_rate": 19.56,
+        "avg_taxi_out": 14.11,
+        "avg_dep_delay": 12.61,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "PBI",
+        "city": "West Palm Beach/Palm Beach, FL",
+        "state": "FL",
+        "total_departures": 28875,
+        "arr_delay_rate": 23.11,
+        "avg_taxi_out": 15.58,
+        "avg_dep_delay": 16.77,
+        "cluster": 3,
+        "cluster_name": "High-Friction Surface Congestion Hubs"
+      },
+      {
+        "airport": "MKE",
+        "city": "Milwaukee, WI",
+        "state": "WI",
+        "total_departures": 28241,
+        "arr_delay_rate": 17.97,
+        "avg_taxi_out": 14.72,
+        "avg_dep_delay": 10.84,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "OGG",
+        "city": "Kahului, HI",
+        "state": "HI",
+        "total_departures": 26227,
+        "arr_delay_rate": 12.19,
+        "avg_taxi_out": 11.02,
+        "avg_dep_delay": 3.8,
+        "cluster": 0,
+        "cluster_name": "High-Efficiency Smooth Operations Hubs"
+      },
+      {
+        "airport": "ONT",
+        "city": "Ontario, CA",
+        "state": "CA",
+        "total_departures": 25898,
+        "arr_delay_rate": 15.7,
+        "avg_taxi_out": 13.16,
+        "avg_dep_delay": 8.89,
+        "cluster": 0,
+        "cluster_name": "High-Efficiency Smooth Operations Hubs"
+      },
+      {
+        "airport": "CHS",
+        "city": "Charleston, SC",
+        "state": "SC",
+        "total_departures": 25208,
+        "arr_delay_rate": 18.49,
+        "avg_taxi_out": 15.71,
+        "avg_dep_delay": 11.35,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "ABQ",
+        "city": "Albuquerque, NM",
+        "state": "NM",
+        "total_departures": 23839,
+        "arr_delay_rate": 17.04,
+        "avg_taxi_out": 14.48,
+        "avg_dep_delay": 9.42,
+        "cluster": 0,
+        "cluster_name": "High-Efficiency Smooth Operations Hubs"
+      },
+      {
+        "airport": "SDF",
+        "city": "Louisville, KY",
+        "state": "KY",
+        "total_departures": 23809,
+        "arr_delay_rate": 17.82,
+        "avg_taxi_out": 15.93,
+        "avg_dep_delay": 9.66,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "OMA",
+        "city": "Omaha, NE",
+        "state": "NE",
+        "total_departures": 23429,
+        "arr_delay_rate": 18.47,
+        "avg_taxi_out": 14.61,
+        "avg_dep_delay": 11.14,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "BOI",
+        "city": "Boise, ID",
+        "state": "ID",
+        "total_departures": 22686,
+        "arr_delay_rate": 16.43,
+        "avg_taxi_out": 16.4,
+        "avg_dep_delay": 6.63,
+        "cluster": 0,
+        "cluster_name": "High-Efficiency Smooth Operations Hubs"
+      },
+      {
+        "airport": "OKC",
+        "city": "Oklahoma City, OK",
+        "state": "OK",
+        "total_departures": 22517,
+        "arr_delay_rate": 17.31,
+        "avg_taxi_out": 13.83,
+        "avg_dep_delay": 9.01,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "MEM",
+        "city": "Memphis, TN",
+        "state": "TN",
+        "total_departures": 22267,
+        "arr_delay_rate": 17.51,
+        "avg_taxi_out": 14.45,
+        "avg_dep_delay": 10.8,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "BDL",
+        "city": "Hartford, CT",
+        "state": "CT",
+        "total_departures": 21946,
+        "arr_delay_rate": 19.67,
+        "avg_taxi_out": 15.13,
+        "avg_dep_delay": 12.29,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "BUF",
+        "city": "Buffalo, NY",
+        "state": "NY",
+        "total_departures": 21632,
+        "arr_delay_rate": 18.93,
+        "avg_taxi_out": 14.83,
+        "avg_dep_delay": 11.07,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "ORF",
+        "city": "Norfolk, VA",
+        "state": "VA",
+        "total_departures": 20704,
+        "arr_delay_rate": 19.5,
+        "avg_taxi_out": 16.31,
+        "avg_dep_delay": 12.59,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "RNO",
+        "city": "Reno, NV",
+        "state": "NV",
+        "total_departures": 20700,
+        "arr_delay_rate": 18.16,
+        "avg_taxi_out": 16.46,
+        "avg_dep_delay": 10.47,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "TUS",
+        "city": "Tucson, AZ",
+        "state": "AZ",
+        "total_departures": 18968,
+        "arr_delay_rate": 16.57,
+        "avg_taxi_out": 15.38,
+        "avg_dep_delay": 8.76,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "SAV",
+        "city": "Savannah, GA",
+        "state": "GA",
+        "total_departures": 18804,
+        "arr_delay_rate": 18.26,
+        "avg_taxi_out": 15.68,
+        "avg_dep_delay": 12.19,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "ANC",
+        "city": "Anchorage, AK",
+        "state": "AK",
+        "total_departures": 18211,
+        "arr_delay_rate": 16.57,
+        "avg_taxi_out": 15.5,
+        "avg_dep_delay": 6.13,
+        "cluster": 0,
+        "cluster_name": "High-Efficiency Smooth Operations Hubs"
+      },
+      {
+        "airport": "RIC",
+        "city": "Richmond, VA",
+        "state": "VA",
+        "total_departures": 17990,
+        "arr_delay_rate": 19.4,
+        "avg_taxi_out": 16.75,
+        "avg_dep_delay": 12.4,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "GRR",
+        "city": "Grand Rapids, MI",
+        "state": "MI",
+        "total_departures": 17923,
+        "arr_delay_rate": 19.37,
+        "avg_taxi_out": 16.28,
+        "avg_dep_delay": 10.54,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "LGB",
+        "city": "Long Beach, CA",
+        "state": "CA",
+        "total_departures": 17530,
+        "arr_delay_rate": 14.64,
+        "avg_taxi_out": 12.02,
+        "avg_dep_delay": 7.37,
+        "cluster": 0,
+        "cluster_name": "High-Efficiency Smooth Operations Hubs"
+      },
+      {
+        "airport": "GEG",
+        "city": "Spokane, WA",
+        "state": "WA",
+        "total_departures": 17375,
+        "arr_delay_rate": 14.82,
+        "avg_taxi_out": 16.77,
+        "avg_dep_delay": 6.55,
+        "cluster": 0,
+        "cluster_name": "High-Efficiency Smooth Operations Hubs"
+      },
+      {
+        "airport": "ELP",
+        "city": "El Paso, TX",
+        "state": "TX",
+        "total_departures": 17298,
+        "arr_delay_rate": 17.03,
+        "avg_taxi_out": 14.25,
+        "avg_dep_delay": 9.94,
+        "cluster": 0,
+        "cluster_name": "High-Efficiency Smooth Operations Hubs"
+      },
+      {
+        "airport": "BHM",
+        "city": "Birmingham, AL",
+        "state": "AL",
+        "total_departures": 16980,
+        "arr_delay_rate": 18.69,
+        "avg_taxi_out": 15.77,
+        "avg_dep_delay": 11.6,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "TUL",
+        "city": "Tulsa, OK",
+        "state": "OK",
+        "total_departures": 16954,
+        "arr_delay_rate": 16.04,
+        "avg_taxi_out": 14.58,
+        "avg_dep_delay": 8.72,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "KOA",
+        "city": "Kona, HI",
+        "state": "HI",
+        "total_departures": 16121,
+        "arr_delay_rate": 11.6,
+        "avg_taxi_out": 12.54,
+        "avg_dep_delay": 4.37,
+        "cluster": 0,
+        "cluster_name": "High-Efficiency Smooth Operations Hubs"
+      },
+      {
+        "airport": "GSP",
+        "city": "Greer, SC",
+        "state": "SC",
+        "total_departures": 16055,
+        "arr_delay_rate": 17.51,
+        "avg_taxi_out": 16.36,
+        "avg_dep_delay": 9.03,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "TYS",
+        "city": "Knoxville, TN",
+        "state": "TN",
+        "total_departures": 15982,
+        "arr_delay_rate": 17.64,
+        "avg_taxi_out": 16.75,
+        "avg_dep_delay": 9.89,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "LIH",
+        "city": "Lihue, HI",
+        "state": "HI",
+        "total_departures": 15792,
+        "arr_delay_rate": 11.7,
+        "avg_taxi_out": 10.5,
+        "avg_dep_delay": 3.39,
+        "cluster": 0,
+        "cluster_name": "High-Efficiency Smooth Operations Hubs"
+      },
+      {
+        "airport": "MYR",
+        "city": "Myrtle Beach, SC",
+        "state": "SC",
+        "total_departures": 15652,
+        "arr_delay_rate": 18.18,
+        "avg_taxi_out": 13.46,
+        "avg_dep_delay": 9.82,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "SRQ",
+        "city": "Sarasota/Bradenton, FL",
+        "state": "FL",
+        "total_departures": 15586,
+        "arr_delay_rate": 19.18,
+        "avg_taxi_out": 14.84,
+        "avg_dep_delay": 12.79,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "DSM",
+        "city": "Des Moines, IA",
+        "state": "IA",
+        "total_departures": 15038,
+        "arr_delay_rate": 18.98,
+        "avg_taxi_out": 15.68,
+        "avg_dep_delay": 13.26,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "PVD",
+        "city": "Providence, RI",
+        "state": "RI",
+        "total_departures": 14643,
+        "arr_delay_rate": 17.36,
+        "avg_taxi_out": 14.23,
+        "avg_dep_delay": 11.48,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "XNA",
+        "city": "Fayetteville, AR",
+        "state": "AR",
+        "total_departures": 13722,
+        "arr_delay_rate": 18.85,
+        "avg_taxi_out": 16.27,
+        "avg_dep_delay": 11.0,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "PSP",
+        "city": "Palm Springs, CA",
+        "state": "CA",
+        "total_departures": 13632,
+        "arr_delay_rate": 18.69,
+        "avg_taxi_out": 16.72,
+        "avg_dep_delay": 8.57,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "PNS",
+        "city": "Pensacola, FL",
+        "state": "FL",
+        "total_departures": 13160,
+        "arr_delay_rate": 19.4,
+        "avg_taxi_out": 13.54,
+        "avg_dep_delay": 14.1,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "SYR",
+        "city": "Syracuse, NY",
+        "state": "NY",
+        "total_departures": 13146,
+        "arr_delay_rate": 17.76,
+        "avg_taxi_out": 16.89,
+        "avg_dep_delay": 9.83,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "LIT",
+        "city": "Little Rock, AR",
+        "state": "AR",
+        "total_departures": 12501,
+        "arr_delay_rate": 20.36,
+        "avg_taxi_out": 14.73,
+        "avg_dep_delay": 12.41,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "COS",
+        "city": "Colorado Springs, CO",
+        "state": "CO",
+        "total_departures": 12487,
+        "arr_delay_rate": 17.87,
+        "avg_taxi_out": 19.34,
+        "avg_dep_delay": 10.18,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "HPN",
+        "city": "White Plains, NY",
+        "state": "NY",
+        "total_departures": 12070,
+        "arr_delay_rate": 19.94,
+        "avg_taxi_out": 15.81,
+        "avg_dep_delay": 13.19,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "ALB",
+        "city": "Albany, NY",
+        "state": "NY",
+        "total_departures": 11851,
+        "arr_delay_rate": 18.88,
+        "avg_taxi_out": 14.88,
+        "avg_dep_delay": 12.82,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "GSO",
+        "city": "Greensboro/High Point, NC",
+        "state": "NC",
+        "total_departures": 11741,
+        "arr_delay_rate": 17.71,
+        "avg_taxi_out": 17.2,
+        "avg_dep_delay": 8.82,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "ROC",
+        "city": "Rochester, NY",
+        "state": "NY",
+        "total_departures": 11708,
+        "arr_delay_rate": 18.0,
+        "avg_taxi_out": 14.7,
+        "avg_dep_delay": 11.64,
+        "cluster": 2,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "FAT",
+        "city": "Fresno, CA",
+        "state": "CA",
+        "total_departures": 11675,
+        "arr_delay_rate": 18.37,
+        "avg_taxi_out": 15.11,
+        "avg_dep_delay": 11.54,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "AVL",
+        "city": "Asheville, NC",
+        "state": "NC",
+        "total_departures": 11654,
+        "arr_delay_rate": 23.67,
+        "avg_taxi_out": 16.18,
+        "avg_dep_delay": 16.03,
+        "cluster": 3,
+        "cluster_name": "High-Friction Surface Congestion Hubs"
+      },
+      {
+        "airport": "MSN",
+        "city": "Madison, WI",
+        "state": "WI",
+        "total_departures": 11605,
+        "arr_delay_rate": 19.22,
+        "avg_taxi_out": 15.49,
+        "avg_dep_delay": 12.28,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "PWM",
+        "city": "Portland, ME",
+        "state": "ME",
+        "total_departures": 11392,
+        "arr_delay_rate": 18.49,
+        "avg_taxi_out": 15.95,
+        "avg_dep_delay": 13.08,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "ICT",
+        "city": "Wichita, KS",
+        "state": "KS",
+        "total_departures": 10139,
+        "arr_delay_rate": 18.07,
+        "avg_taxi_out": 14.13,
+        "avg_dep_delay": 10.42,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      },
+      {
+        "airport": "BZN",
+        "city": "Bozeman, MT",
+        "state": "MT",
+        "total_departures": 10088,
+        "arr_delay_rate": 19.25,
+        "avg_taxi_out": 17.82,
+        "avg_dep_delay": 10.98,
+        "cluster": 1,
+        "cluster_name": "Moderate Volume Balanced Airfields"
+      }
+    ]
+  }
+}

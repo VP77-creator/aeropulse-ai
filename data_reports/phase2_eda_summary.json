@@ -1,0 +1,805 @@
+{
+  "execution_timestamp": "2026-10-14T10:13:26.378890",
+  "duration_seconds": 188.38,
+  "total_records": 7079081,
+  "carrier_performance": [
+    {
+      "carrier": "WN",
+      "total_flights": 1419419,
+      "cancelled_flights": 11772.0,
+      "cancel_rate_pct": 0.83,
+      "delayed_flights": 289414.0,
+      "delay_rate_pct": 20.6,
+      "avg_arr_delay_min": 5.13,
+      "avg_dep_delay_min": 11.71
+    },
+    {
+      "carrier": "DL",
+      "total_flights": 1009194,
+      "cancelled_flights": 9147.0,
+      "cancel_rate_pct": 0.91,
+      "delayed_flights": 172271.0,
+      "delay_rate_pct": 17.26,
+      "avg_arr_delay_min": 3.66,
+      "avg_dep_delay_min": 10.11
+    },
+    {
+      "carrier": "AA",
+      "total_flights": 984306,
+      "cancelled_flights": 15252.0,
+      "cancel_rate_pct": 1.55,
+      "delayed_flights": 252485.0,
+      "delay_rate_pct": 26.13,
+      "avg_arr_delay_min": 15.31,
+      "avg_dep_delay_min": 20.58
+    },
+    {
+      "carrier": "UA",
+      "total_flights": 760451,
+      "cancelled_flights": 12478.0,
+      "cancel_rate_pct": 1.64,
+      "delayed_flights": 148112.0,
+      "delay_rate_pct": 19.86,
+      "avg_arr_delay_min": 5.74,
+      "avg_dep_delay_min": 11.86
+    },
+    {
+      "carrier": "OO",
+      "total_flights": 744658,
+      "cancelled_flights": 8527.0,
+      "cancel_rate_pct": 1.15,
+      "delayed_flights": 139424.0,
+      "delay_rate_pct": 19.0,
+      "avg_arr_delay_min": 7.36,
+      "avg_dep_delay_min": 11.21
+    },
+    {
+      "carrier": "YX",
+      "total_flights": 301465,
+      "cancelled_flights": 5576.0,
+      "cancel_rate_pct": 1.85,
+      "delayed_flights": 41554.0,
+      "delay_rate_pct": 14.07,
+      "avg_arr_delay_min": -1.79,
+      "avg_dep_delay_min": 3.88
+    },
+    {
+      "carrier": "MQ",
+      "total_flights": 279955,
+      "cancelled_flights": 3985.0,
+      "cancel_rate_pct": 1.42,
+      "delayed_flights": 57432.0,
+      "delay_rate_pct": 20.86,
+      "avg_arr_delay_min": 6.46,
+      "avg_dep_delay_min": 10.08
+    },
+    {
+      "carrier": "NK",
+      "total_flights": 261103,
+      "cancelled_flights": 4998.0,
+      "cancel_rate_pct": 1.91,
+      "delayed_flights": 61163.0,
+      "delay_rate_pct": 23.93,
+      "avg_arr_delay_min": 8.42,
+      "avg_dep_delay_min": 14.91
+    },
+    {
+      "carrier": "AS",
+      "total_flights": 245819,
+      "cancelled_flights": 4811.0,
+      "cancel_rate_pct": 1.96,
+      "delayed_flights": 53044.0,
+      "delay_rate_pct": 22.07,
+      "avg_arr_delay_min": 4.47,
+      "avg_dep_delay_min": 7.56
+    },
+    {
+      "carrier": "B6",
+      "total_flights": 240282,
+      "cancelled_flights": 3735.0,
+      "cancel_rate_pct": 1.55,
+      "delayed_flights": 60121.0,
+      "delay_rate_pct": 25.51,
+      "avg_arr_delay_min": 10.74,
+      "avg_dep_delay_min": 17.31
+    },
+    {
+      "carrier": "OH",
+      "total_flights": 227971,
+      "cancelled_flights": 3751.0,
+      "cancel_rate_pct": 1.65,
+      "delayed_flights": 48694.0,
+      "delay_rate_pct": 21.77,
+      "avg_arr_delay_min": 10.03,
+      "avg_dep_delay_min": 13.82
+    },
+    {
+      "carrier": "F9",
+      "total_flights": 208624,
+      "cancelled_flights": 4835.0,
+      "cancel_rate_pct": 2.32,
+      "delayed_flights": 58481.0,
+      "delay_rate_pct": 28.74,
+      "avg_arr_delay_min": 15.25,
+      "avg_dep_delay_min": 18.87
+    },
+    {
+      "carrier": "9E",
+      "total_flights": 200094,
+      "cancelled_flights": 4608.0,
+      "cancel_rate_pct": 2.3,
+      "delayed_flights": 30882.0,
+      "delay_rate_pct": 15.83,
+      "avg_arr_delay_min": 1.68,
+      "avg_dep_delay_min": 8.24
+    },
+    {
+      "carrier": "G4",
+      "total_flights": 117210,
+      "cancelled_flights": 2018.0,
+      "cancel_rate_pct": 1.72,
+      "delayed_flights": 24897.0,
+      "delay_rate_pct": 21.67,
+      "avg_arr_delay_min": 9.71,
+      "avg_dep_delay_min": 13.99
+    },
+    {
+      "carrier": "HA",
+      "total_flights": 78530,
+      "cancelled_flights": 822.0,
+      "cancel_rate_pct": 1.05,
+      "delayed_flights": 11998.0,
+      "delay_rate_pct": 15.45,
+      "avg_arr_delay_min": 4.25,
+      "avg_dep_delay_min": 5.41
+    }
+  ],
+  "monthly_trends": [
+    {
+      "month": 1,
+      "month_name": "January",
+      "total_flights": 547271,
+      "cancel_rate_pct": 3.73,
+      "delay_rate_pct": 24.06,
+      "avg_arr_delay_min": 10.35
+    },
+    {
+      "month": 2,
+      "month_name": "February",
+      "total_flights": 519221,
+      "cancel_rate_pct": 0.58,
+      "delay_rate_pct": 15.92,
+      "avg_arr_delay_min": 0.59
+    },
+    {
+      "month": 3,
+      "month_name": "March",
+      "total_flights": 591767,
+      "cancel_rate_pct": 0.87,
+      "delay_rate_pct": 20.85,
+      "avg_arr_delay_min": 6.5
+    },
+    {
+      "month": 4,
+      "month_name": "April",
+      "total_flights": 582205,
+      "cancel_rate_pct": 0.69,
+      "delay_rate_pct": 19.06,
+      "avg_arr_delay_min": 5.36
+    },
+    {
+      "month": 5,
+      "month_name": "May",
+      "total_flights": 609743,
+      "cancel_rate_pct": 1.35,
+      "delay_rate_pct": 26.41,
+      "avg_arr_delay_min": 14.05
+    },
+    {
+      "month": 6,
+      "month_name": "June",
+      "total_flights": 611132,
+      "cancel_rate_pct": 1.29,
+      "delay_rate_pct": 24.94,
+      "avg_arr_delay_min": 11.81
+    },
+    {
+      "month": 7,
+      "month_name": "July",
+      "total_flights": 634613,
+      "cancel_rate_pct": 2.89,
+      "delay_rate_pct": 29.62,
+      "avg_arr_delay_min": 18.09
+    },
+    {
+      "month": 8,
+      "month_name": "August",
+      "total_flights": 619025,
+      "cancel_rate_pct": 2.05,
+      "delay_rate_pct": 23.47,
+      "avg_arr_delay_min": 10.59
+    },
+    {
+      "month": 9,
+      "month_name": "September",
+      "total_flights": 582622,
+      "cancel_rate_pct": 0.6,
+      "delay_rate_pct": 15.51,
+      "avg_arr_delay_min": 1.0
+    },
+    {
+      "month": 10,
+      "month_name": "October",
+      "total_flights": 615497,
+      "cancel_rate_pct": 1.02,
+      "delay_rate_pct": 13.2,
+      "avg_arr_delay_min": -1.28
+    },
+    {
+      "month": 11,
+      "month_name": "November",
+      "total_flights": 575404,
+      "cancel_rate_pct": 0.46,
+      "delay_rate_pct": 14.67,
+      "avg_arr_delay_min": -0.32
+    },
+    {
+      "month": 12,
+      "month_name": "December",
+      "total_flights": 590581,
+      "cancel_rate_pct": 0.7,
+      "delay_rate_pct": 21.15,
+      "avg_arr_delay_min": 7.12
+    }
+  ],
+  "day_of_week_trends": [
+    {
+      "dow": 1,
+      "day_name": "Monday",
+      "total_flights": 1073959,
+      "delay_rate_pct": 20.55,
+      "avg_arr_delay_min": 7.03
+    },
+    {
+      "dow": 2,
+      "day_name": "Tuesday",
+      "total_flights": 976073,
+      "delay_rate_pct": 17.92,
+      "avg_arr_delay_min": 4.39
+    },
+    {
+      "dow": 3,
+      "day_name": "Wednesday",
+      "total_flights": 973179,
+      "delay_rate_pct": 18.67,
+      "avg_arr_delay_min": 4.83
+    },
+    {
+      "dow": 4,
+      "day_name": "Thursday",
+      "total_flights": 1041956,
+      "delay_rate_pct": 21.88,
+      "avg_arr_delay_min": 8.18
+    },
+    {
+      "dow": 5,
+      "day_name": "Friday",
+      "total_flights": 1055419,
+      "delay_rate_pct": 23.33,
+      "avg_arr_delay_min": 9.61
+    },
+    {
+      "dow": 6,
+      "day_name": "Saturday",
+      "total_flights": 911515,
+      "delay_rate_pct": 20.41,
+      "avg_arr_delay_min": 6.45
+    },
+    {
+      "dow": 7,
+      "day_name": "Sunday",
+      "total_flights": 1046980,
+      "delay_rate_pct": 22.55,
+      "avg_arr_delay_min": 8.77
+    }
+  ],
+  "hourly_trends": [
+    {
+      "dep_hour": 0,
+      "total_flights": 12331,
+      "delay_rate_pct": 20.02,
+      "avg_arr_delay_min": 5.57
+    },
+    {
+      "dep_hour": 1,
+      "total_flights": 4077,
+      "delay_rate_pct": 21.27,
+      "avg_arr_delay_min": 7.99
+    },
+    {
+      "dep_hour": 2,
+      "total_flights": 1543,
+      "delay_rate_pct": 20.78,
+      "avg_arr_delay_min": 3.71
+    },
+    {
+      "dep_hour": 3,
+      "total_flights": 1093,
+      "delay_rate_pct": 19.46,
+      "avg_arr_delay_min": 2.87
+    },
+    {
+      "dep_hour": 4,
+      "total_flights": 534,
+      "delay_rate_pct": 20.15,
+      "avg_arr_delay_min": 10.11
+    },
+    {
+      "dep_hour": 5,
+      "total_flights": 200157,
+      "delay_rate_pct": 9.06,
+      "avg_arr_delay_min": -2.24
+    },
+    {
+      "dep_hour": 6,
+      "total_flights": 495017,
+      "delay_rate_pct": 9.58,
+      "avg_arr_delay_min": -2.18
+    },
+    {
+      "dep_hour": 7,
+      "total_flights": 493915,
+      "delay_rate_pct": 12.29,
+      "avg_arr_delay_min": -0.42
+    },
+    {
+      "dep_hour": 8,
+      "total_flights": 482402,
+      "delay_rate_pct": 13.86,
+      "avg_arr_delay_min": 0.09
+    },
+    {
+      "dep_hour": 9,
+      "total_flights": 395739,
+      "delay_rate_pct": 15.3,
+      "avg_arr_delay_min": 1.56
+    },
+    {
+      "dep_hour": 10,
+      "total_flights": 439299,
+      "delay_rate_pct": 16.5,
+      "avg_arr_delay_min": 2.5
+    },
+    {
+      "dep_hour": 11,
+      "total_flights": 442008,
+      "delay_rate_pct": 17.74,
+      "avg_arr_delay_min": 3.93
+    },
+    {
+      "dep_hour": 12,
+      "total_flights": 419882,
+      "delay_rate_pct": 19.15,
+      "avg_arr_delay_min": 5.59
+    },
+    {
+      "dep_hour": 13,
+      "total_flights": 423120,
+      "delay_rate_pct": 21.28,
+      "avg_arr_delay_min": 7.53
+    },
+    {
+      "dep_hour": 14,
+      "total_flights": 406552,
+      "delay_rate_pct": 23.36,
+      "avg_arr_delay_min": 9.64
+    },
+    {
+      "dep_hour": 15,
+      "total_flights": 407710,
+      "delay_rate_pct": 24.95,
+      "avg_arr_delay_min": 10.93
+    },
+    {
+      "dep_hour": 16,
+      "total_flights": 409197,
+      "delay_rate_pct": 26.96,
+      "avg_arr_delay_min": 12.88
+    },
+    {
+      "dep_hour": 17,
+      "total_flights": 443706,
+      "delay_rate_pct": 27.83,
+      "avg_arr_delay_min": 13.71
+    },
+    {
+      "dep_hour": 18,
+      "total_flights": 435133,
+      "delay_rate_pct": 29.39,
+      "avg_arr_delay_min": 14.95
+    },
+    {
+      "dep_hour": 19,
+      "total_flights": 387894,
+      "delay_rate_pct": 29.98,
+      "avg_arr_delay_min": 15.37
+    },
+    {
+      "dep_hour": 20,
+      "total_flights": 317614,
+      "delay_rate_pct": 30.44,
+      "avg_arr_delay_min": 15.47
+    },
+    {
+      "dep_hour": 21,
+      "total_flights": 235114,
+      "delay_rate_pct": 28.37,
+      "avg_arr_delay_min": 13.98
+    },
+    {
+      "dep_hour": 22,
+      "total_flights": 166351,
+      "delay_rate_pct": 27.16,
+      "avg_arr_delay_min": 13.05
+    },
+    {
+      "dep_hour": 23,
+      "total_flights": 58692,
+      "delay_rate_pct": 21.3,
+      "avg_arr_delay_min": 6.38
+    },
+    {
+      "dep_hour": 24,
+      "total_flights": 1,
+      "delay_rate_pct": 0.0,
+      "avg_arr_delay_min": -19.0
+    }
+  ],
+  "top_airports": [
+    {
+      "airport_code": "ATL",
+      "city": "Atlanta, GA",
+      "state": "GA",
+      "total_departures": 341910,
+      "delay_rate_pct": 19.85,
+      "avg_dep_delay_min": 10.97,
+      "avg_arr_delay_min": 6.82
+    },
+    {
+      "airport_code": "DFW",
+      "city": "Dallas/Fort Worth, TX",
+      "state": "TX",
+      "total_departures": 313582,
+      "delay_rate_pct": 27.1,
+      "avg_dep_delay_min": 18.84,
+      "avg_arr_delay_min": 13.91
+    },
+    {
+      "airport_code": "DEN",
+      "city": "Denver, CO",
+      "state": "CO",
+      "total_departures": 308645,
+      "delay_rate_pct": 22.77,
+      "avg_dep_delay_min": 13.18,
+      "avg_arr_delay_min": 7.77
+    },
+    {
+      "airport_code": "ORD",
+      "city": "Chicago, IL",
+      "state": "IL",
+      "total_departures": 280052,
+      "delay_rate_pct": 23.69,
+      "avg_dep_delay_min": 15.14,
+      "avg_arr_delay_min": 9.88
+    },
+    {
+      "airport_code": "CLT",
+      "city": "Charlotte, NC",
+      "state": "NC",
+      "total_departures": 217574,
+      "delay_rate_pct": 27.04,
+      "avg_dep_delay_min": 18.34,
+      "avg_arr_delay_min": 13.9
+    },
+    {
+      "airport_code": "LAX",
+      "city": "Los Angeles, CA",
+      "state": "CA",
+      "total_departures": 194053,
+      "delay_rate_pct": 18.77,
+      "avg_dep_delay_min": 10.2,
+      "avg_arr_delay_min": 4.36
+    },
+    {
+      "airport_code": "PHX",
+      "city": "Phoenix, AZ",
+      "state": "AZ",
+      "total_departures": 193551,
+      "delay_rate_pct": 19.14,
+      "avg_dep_delay_min": 10.89,
+      "avg_arr_delay_min": 5.39
+    },
+    {
+      "airport_code": "LAS",
+      "city": "Las Vegas, NV",
+      "state": "NV",
+      "total_departures": 189252,
+      "delay_rate_pct": 21.83,
+      "avg_dep_delay_min": 12.81,
+      "avg_arr_delay_min": 6.14
+    },
+    {
+      "airport_code": "SEA",
+      "city": "Seattle, WA",
+      "state": "WA",
+      "total_departures": 163725,
+      "delay_rate_pct": 21.5,
+      "avg_dep_delay_min": 9.48,
+      "avg_arr_delay_min": 5.05
+    },
+    {
+      "airport_code": "LGA",
+      "city": "New York, NY",
+      "state": "NY",
+      "total_departures": 162432,
+      "delay_rate_pct": 18.1,
+      "avg_dep_delay_min": 10.58,
+      "avg_arr_delay_min": 1.56
+    },
+    {
+      "airport_code": "MCO",
+      "city": "Orlando, FL",
+      "state": "FL",
+      "total_departures": 159553,
+      "delay_rate_pct": 24.41,
+      "avg_dep_delay_min": 15.85,
+      "avg_arr_delay_min": 10.65
+    },
+    {
+      "airport_code": "BOS",
+      "city": "Boston, MA",
+      "state": "MA",
+      "total_departures": 143490,
+      "delay_rate_pct": 20.38,
+      "avg_dep_delay_min": 11.94,
+      "avg_arr_delay_min": 4.11
+    },
+    {
+      "airport_code": "DCA",
+      "city": "Washington, DC",
+      "state": "VA",
+      "total_departures": 140016,
+      "delay_rate_pct": 20.05,
+      "avg_dep_delay_min": 12.05,
+      "avg_arr_delay_min": 5.56
+    },
+    {
+      "airport_code": "SFO",
+      "city": "San Francisco, CA",
+      "state": "CA",
+      "total_departures": 134978,
+      "delay_rate_pct": 22.09,
+      "avg_dep_delay_min": 14.46,
+      "avg_arr_delay_min": 7.26
+    },
+    {
+      "airport_code": "DTW",
+      "city": "Detroit, MI",
+      "state": "MI",
+      "total_departures": 131367,
+      "delay_rate_pct": 19.22,
+      "avg_dep_delay_min": 11.16,
+      "avg_arr_delay_min": 5.58
+    },
+    {
+      "airport_code": "EWR",
+      "city": "Newark, NJ",
+      "state": "NJ",
+      "total_departures": 128979,
+      "delay_rate_pct": 22.33,
+      "avg_dep_delay_min": 13.94,
+      "avg_arr_delay_min": 6.43
+    },
+    {
+      "airport_code": "MSP",
+      "city": "Minneapolis, MN",
+      "state": "MN",
+      "total_departures": 126779,
+      "delay_rate_pct": 18.93,
+      "avg_dep_delay_min": 10.0,
+      "avg_arr_delay_min": 4.04
+    },
+    {
+      "airport_code": "JFK",
+      "city": "New York, NY",
+      "state": "NY",
+      "total_departures": 123348,
+      "delay_rate_pct": 21.06,
+      "avg_dep_delay_min": 12.73,
+      "avg_arr_delay_min": 3.95
+    },
+    {
+      "airport_code": "IAH",
+      "city": "Houston, TX",
+      "state": "TX",
+      "total_departures": 115940,
+      "delay_rate_pct": 24.4,
+      "avg_dep_delay_min": 17.67,
+      "avg_arr_delay_min": 12.41
+    },
+    {
+      "airport_code": "SLC",
+      "city": "Salt Lake City, UT",
+      "state": "UT",
+      "total_departures": 113247,
+      "delay_rate_pct": 17.32,
+      "avg_dep_delay_min": 9.09,
+      "avg_arr_delay_min": 3.78
+    }
+  ],
+  "top_routes": [
+    {
+      "route": "OGG -> HNL",
+      "origin_city": "Kahului, HI",
+      "dest_city": "Honolulu, HI",
+      "total_flights": 11642,
+      "distance_miles": 100.0,
+      "delay_rate_pct": 11.54,
+      "avg_arr_delay_min": 0.37
+    },
+    {
+      "route": "HNL -> OGG",
+      "origin_city": "Honolulu, HI",
+      "dest_city": "Kahului, HI",
+      "total_flights": 11634,
+      "distance_miles": 100.0,
+      "delay_rate_pct": 10.69,
+      "avg_arr_delay_min": 0.91
+    },
+    {
+      "route": "LAX -> SFO",
+      "origin_city": "Los Angeles, CA",
+      "dest_city": "San Francisco, CA",
+      "total_flights": 11526,
+      "distance_miles": 337.0,
+      "delay_rate_pct": 32.87,
+      "avg_arr_delay_min": 14.93
+    },
+    {
+      "route": "SFO -> LAX",
+      "origin_city": "San Francisco, CA",
+      "dest_city": "Los Angeles, CA",
+      "total_flights": 11499,
+      "distance_miles": 337.0,
+      "delay_rate_pct": 23.93,
+      "avg_arr_delay_min": 8.94
+    },
+    {
+      "route": "LGA -> ORD",
+      "origin_city": "New York, NY",
+      "dest_city": "Chicago, IL",
+      "total_flights": 10971,
+      "distance_miles": 733.0,
+      "delay_rate_pct": 19.65,
+      "avg_arr_delay_min": 5.6
+    },
+    {
+      "route": "ORD -> LGA",
+      "origin_city": "Chicago, IL",
+      "dest_city": "New York, NY",
+      "total_flights": 10969,
+      "distance_miles": 733.0,
+      "delay_rate_pct": 23.34,
+      "avg_arr_delay_min": 10.43
+    },
+    {
+      "route": "LAX -> JFK",
+      "origin_city": "Los Angeles, CA",
+      "dest_city": "New York, NY",
+      "total_flights": 9915,
+      "distance_miles": 2475.0,
+      "delay_rate_pct": 17.29,
+      "avg_arr_delay_min": 3.28
+    },
+    {
+      "route": "JFK -> LAX",
+      "origin_city": "New York, NY",
+      "dest_city": "Los Angeles, CA",
+      "total_flights": 9915,
+      "distance_miles": 2475.0,
+      "delay_rate_pct": 17.13,
+      "avg_arr_delay_min": -2.95
+    },
+    {
+      "route": "DCA -> BOS",
+      "origin_city": "Washington, DC",
+      "dest_city": "Boston, MA",
+      "total_flights": 9658,
+      "distance_miles": 399.0,
+      "delay_rate_pct": 19.82,
+      "avg_arr_delay_min": 5.82
+    },
+    {
+      "route": "BOS -> DCA",
+      "origin_city": "Boston, MA",
+      "dest_city": "Washington, DC",
+      "total_flights": 9657,
+      "distance_miles": 399.0,
+      "delay_rate_pct": 18.34,
+      "avg_arr_delay_min": 4.08
+    },
+    {
+      "route": "LAX -> LAS",
+      "origin_city": "Los Angeles, CA",
+      "dest_city": "Las Vegas, NV",
+      "total_flights": 9603,
+      "distance_miles": 236.0,
+      "delay_rate_pct": 25.07,
+      "avg_arr_delay_min": 10.52
+    },
+    {
+      "route": "LAS -> LAX",
+      "origin_city": "Las Vegas, NV",
+      "dest_city": "Los Angeles, CA",
+      "total_flights": 9559,
+      "distance_miles": 236.0,
+      "delay_rate_pct": 22.94,
+      "avg_arr_delay_min": 7.34
+    },
+    {
+      "route": "PHX -> DEN",
+      "origin_city": "Phoenix, AZ",
+      "dest_city": "Denver, CO",
+      "total_flights": 9479,
+      "distance_miles": 602.0,
+      "delay_rate_pct": 18.62,
+      "avg_arr_delay_min": 5.26
+    },
+    {
+      "route": "DEN -> PHX",
+      "origin_city": "Denver, CO",
+      "dest_city": "Phoenix, AZ",
+      "total_flights": 9446,
+      "distance_miles": 602.0,
+      "delay_rate_pct": 22.9,
+      "avg_arr_delay_min": 7.56
+    },
+    {
+      "route": "MCO -> ATL",
+      "origin_city": "Orlando, FL",
+      "dest_city": "Atlanta, GA",
+      "total_flights": 8967,
+      "distance_miles": 404.0,
+      "delay_rate_pct": 25.97,
+      "avg_arr_delay_min": 14.33
+    }
+  ],
+  "delay_causes": {
+    "Late Aircraft Delay": {
+      "minutes": 41974007.0,
+      "pct": 40.44
+    },
+    "Carrier Delay": {
+      "minutes": 35823265.0,
+      "pct": 34.51
+    },
+    "NAS Delay (Airspace)": {
+      "minutes": 19621994.0,
+      "pct": 18.9
+    },
+    "Weather Delay": {
+      "minutes": 6195873.0,
+      "pct": 5.97
+    },
+    "Security Delay": {
+      "minutes": 179928.0,
+      "pct": 0.17
+    }
+  },
+  "key_eda_insights": [
+    "Late Aircraft is the #1 driver of cumulative delay minutes (40.44%), demonstrating cascade propagation throughout airline daily rotations.",
+    "Carrier-controllable issues (maintenance, crew, boarding) account for 34.51% of delay minutes.",
+    "Delay rates spike significantly in late afternoon and evening hours (peaking between 18:00 and 21:00) compared to early morning (06:00-08:00), showing intra-day delay compounding.",
+    "Summer months (June, July, August) and severe winter weather periods demonstrate elevated delay and cancellation spikes."
+  ]
+}

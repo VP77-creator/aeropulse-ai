@@ -1,0 +1,22 @@
+{
+  "db_path": "warehouse/flight_warehouse.duckdb",
+  "db_size_mb": 1302.76,
+  "total_records": 7079081,
+  "dim_counts": {
+    "dim_date": 366,
+    "dim_carrier": 15,
+    "dim_airport": 348,
+    "dim_time_block": 24,
+    "dim_route": 6805
+  },
+  "referential_integrity": {
+    "orphan_carrier": 0,
+    "orphan_origin": 0,
+    "orphan_dest": 0,
+    "orphan_date": 0,
+    "orphan_time": 0,
+    "orphan_route": 0
+  },
+  "build_duration_seconds": 462.12,
+  "status": "SUCCESS"
+}
